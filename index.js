@@ -13,9 +13,9 @@ function increaseRankBy(n){
 }
 function deepestChild(){
   var temp = document.getElementById('grand-node')
-  while(temp.querySelector().querySelector() != NaN){
-    if (temp.querySelector().querySelector() == NaN){
-      return temp.querySelector().innerHTML
-    } temp = temp.querySelector()
+  while(temp.querySelector('div').querySelector('div') != NaN){
+    if (temp.querySelector('div').querySelector('div') == NaN){
+      return temp.querySelector('div').innerHTML
+    } temp = temp.querySelector('div')
   }
 }
