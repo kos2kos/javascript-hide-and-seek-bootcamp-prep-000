@@ -13,7 +13,9 @@ function increaseRankBy(n){
 }
 function deepestChild(){
   var temp = document.getElementById('grand-node')
-  while(temp.querySelector != NaN){
-    
+  while(temp.querySelector().querySelector() != NaN){
+    if (temp.querySelector().querySelector() == NaN){
+      return temp.querySelector().innerHTML
+    }
   }
 }
