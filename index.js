@@ -16,8 +16,7 @@ function deepestChild(){
   while(temp.querySelector('div') !== null){
     if (temp.querySelector('div').querySelector('div') !== null){
       temp = temp.querySelector('div')
-    } 
-      return temp.querySelector('div').innerHTML
+    }}       
+    return temp.querySelector('div').innerHTML
 
-  }
 }
