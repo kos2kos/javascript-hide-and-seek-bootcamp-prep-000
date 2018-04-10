@@ -13,8 +13,8 @@ function increaseRankBy(n){
 }
 function deepestChild(){
   var temp = document.getElementById('grand-node')
-  while(temp.querySelector('div').querySelector('div') != NaN){
-    if (temp.querySelector('div').querySelector('div') == NaN){
+  while(temp.querySelector('div').querySelector('div') != null){
+    if (temp.querySelector('div').querySelector('div') != null){
       return temp.querySelector('div').innerHTML
     } temp = temp.querySelector('div')
   }
