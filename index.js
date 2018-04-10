@@ -16,6 +16,6 @@ function deepestChild(){
   while(temp.querySelector().querySelector() != NaN){
     if (temp.querySelector().querySelector() == NaN){
       return temp.querySelector().innerHTML
-    }
+    } temp = temp.querySelector()
   }
 }
